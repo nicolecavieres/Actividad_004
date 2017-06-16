@@ -1,0 +1,260 @@
+/*Para todo*/
+*{
+	margin: 0;
+	padding:0;
+}
+
+*,*:before, *:after{
+	box-sizing: inherit;
+}
+.clearfix:before , .clearfix:after{
+	content:"";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	*zoom:1;
+}
+
+
+
+/*Header*/
+header{
+	background: url('../imagenes/fondo.jpeg') no-repeat right center; 
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+}
+.contHeader{
+	width: 1170px;
+	margin:0 auto;
+	padding-top: 40px;
+	height: 450px;
+}
+header img{
+	width: 10%;
+}
+.titulo{
+	width: 50%;
+	margin:0 auto;
+}
+h1{
+	color:white;
+	font-family:'Asap', sans-serif;
+	font-size: 2.8em;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 1%;
+}
+.botones{
+	margin:20px auto;
+	width: 25%;
+	height: 50px;
+	position: relative;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+.celeste{
+	background-color: #4d99d9;
+	width: 48%;
+	height: 50px;
+	position: absolute;
+	border-radius: 7px;
+}
+.celeste:hover{
+	background-color: #337ab7;
+}
+.verde{
+	background-color: #5cb85c;
+	width: 48%;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	border-radius: 7px;
+}
+.verde:hover{
+	background-color: #509a50;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.botones p{
+	position: relative;
+	top:22%;
+	font-size: 1.3em;
+}
+.parrafo{
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	color:white;
+}
+
+
+
+/*Nav*/
+nav{
+	float:right;
+	width: 50%;
+	position: relative;
+}
+li{
+	float: right;
+	list-style-type: none;
+	padding-left:8%;
+}
+li a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.4);
+	font-family: 'Work Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 1em;
+}
+li a:hover{
+	color: white;
+}
+
+
+
+/*Sección Personas*/
+section.personas{
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	color:black;
+	height: 650px;
+	position: relative;
+	overflow: hidden;
+}
+.contPersonas{
+	width: 1170px;
+	margin:0 auto;
+	padding-top: 40px;
+	height: 650px;
+}
+h2{
+	text-transform: uppercase;
+	padding-bottom: 1%;
+}
+.personas img{
+	width: 585px;
+}
+.informacion p, .personas p{
+	padding: 0 15%;
+}
+
+
+
+/*Sección Información*/
+section.informacion{
+	text-align: center;
+	font-family: 'Work Sans', sans-serif;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	background: url('../imagenes/concrete.png');
+	border-top : solid #cccccc 4px;
+	border-bottom: solid #cccccc 4px;
+}
+.contInformacion{
+	width: 1170px;
+	margin:0 auto;
+	padding-top: 40px;
+	height: 300px;
+}
+.celeste2{
+	margin:20px auto;
+	width: 15%;
+	height: 50px;
+	text-align: center;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	background-color: #4d99d9;
+	border-radius: 7px; 
+}
+.celeste2 p{
+	top:22%;
+	position: relative;
+	font-size: 1.3em;
+}
+.celeste2:hover{
+	background-color: #337ab7;
+}
+
+
+
+/*Sección Contacto*/
+section.contacto{
+	width: 100%;
+	height: 250px;
+	font-family: 'Work Sans', sans-serif;
+}
+.contContacto{
+	width: 1170px;
+	margin:0 auto;
+	padding-top: 40px;
+	height: 250px;
+}
+.contacto p{
+	padding-bottom: 2%;
+}
+h3{
+	padding-bottom: 2%;
+}
+h4{
+	font-weight: bold;
+	padding-bottom: 1%;
+}
+.mail{
+	width: 50%;
+	float: left;
+	padding-left: 15%;
+	box-sizing: border-box;
+}
+.mail a{
+	color: #337ab7;
+}
+.formulario{
+	width: 50%;
+	float: left;
+}
+input{
+	height: 35px;
+	border-radius: 7px;
+	border: solid #B8B8B8 1px;
+	font-size: 1em;
+	padding: 0 1%;
+	margin-top: 3%;
+}
+#textoForm{
+	width: 40%;
+}
+#botonForm{
+	width: 13%;
+	background-color: white;
+	font-family: 'Work Sans', sans-serif;
+}
+#botonForm:hover{
+	background: url('../imagenes/concrete.png');
+}
+
+
+
+/*Footer*/
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #2E2E2E;
+}
+.contFooter{
+	width: 1170px;
+	margin:0 auto;
+	height: 60px;
+}
+footer p{
+	color: white;
+	font-family:'Asap', sans-serif;
+	text-transform: uppercase;
+	padding-top: 2%;
+}
